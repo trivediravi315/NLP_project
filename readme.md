@@ -3,7 +3,6 @@
 ## Overview
 This project provides a simple application to clean text files or CSV files containing textual data. It removes unwanted characters, stopwords, and retains only meaningful content. The application is built using Python and Streamlit for an intuitive and user-friendly interface.
 
----
 
 ## Features
 1. **Text Cleaning**:
@@ -15,8 +14,7 @@ This project provides a simple application to clean text files or CSV files cont
    - Displays original and cleaned content side-by-side.
 3. **Download Cleaned Data**:
    - Allows users to download the cleaned content in a CSV format.
-
----
+     
 
 ## Setup Instructions
 
@@ -30,14 +28,17 @@ This project provides a simple application to clean text files or CSV files cont
    git clone <repository_url>
    cd <repository_folder>
 2. Create and activate a virtual environment (optional but recommended):
+   ```bash
    python -m venv my_venv
    source my_venv/bin/activate       # On Linux/Mac
    my_venv\Scripts\activate          # On Windows
 
-3. Install the required dependencies:
+4. Install the required dependencies:
+   ```bash
    pip install -r requirements.txt
 
-4. Run the Streamlit app:
+5. Run the Streamlit app:
+   ```bash
    streamlit run app.py
 
 ### Usage
