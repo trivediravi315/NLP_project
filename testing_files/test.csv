@@ -1,0 +1,4 @@
+Text1,Text2,Category
+"Hello! This is a test, including 123 numbers & symbols!"," ""Testing with special characters like @#$ and numbers 456."""," ""Category A"""
+Random string with \@ special chars!," ""Another test # string with 789 digits!"""," ""Category B"""
+"More examples of text, with spaces, 999 and other things like %^&!"," ""Another one  with numbers 123   and special chars *&^."""""," ""Category C"""
