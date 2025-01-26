@@ -12,25 +12,25 @@ Installation
 Follow these steps to run the app locally:
 
 1. Clone the repository:
-bash
+bash'''
 git clone <repository_url>
 cd <repository_folder>
 
 2. Create a virtual environment (optional, but recommended):
-bash
+bash'''
 python -m venv myenv
 3. Activate the virtual environment:
 Windows:
-bash
+bash'''
 myenv\Scripts\activate
 macOS/Linux:
-bash
+bash'''
 source myenv/bin/activate
 4. Install the required dependencies:
-bash
+bash'''
 pip install -r requirements.txt
 5. Run the app:
-bash
+bash'''
 streamlit run app.py
 This will open the app in your default web browser.
 
