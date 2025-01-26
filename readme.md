@@ -52,7 +52,7 @@ Select Columns (for CSV files):
   
 Clean the Text:
 - Click the "Submit" button to clean the text using the built-in cleaning rules.
-- 
+  
 Download Processed Data:
 - For .txt files: Download the cleaned text as a .txt file.
 - For .csv files: Download the cleaned dataset as a .csv file.
