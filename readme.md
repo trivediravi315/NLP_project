@@ -12,10 +12,10 @@ Installation
 Follow these steps to run the app locally:
 
 1. Clone the repository:
-bash'''
+```bash
 git clone <repository_url>
 cd <repository_folder>
-
+```
 2. Create a virtual environment (optional, but recommended):
 ```bash
 python -m venv myenv
