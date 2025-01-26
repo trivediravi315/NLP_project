@@ -17,21 +17,24 @@ git clone <repository_url>
 cd <repository_folder>
 
 2. Create a virtual environment (optional, but recommended):
-bash'''
+```bash
 python -m venv myenv
+```
 3. Activate the virtual environment:
+```bash
 Windows:
-bash'''
 myenv\Scripts\activate
 macOS/Linux:
-bash'''
 source myenv/bin/activate
+```
 4. Install the required dependencies:
-bash'''
+```bash
 pip install -r requirements.txt
+```
 5. Run the app:
-bash'''
+```bash
 streamlit run app.py
+```
 This will open the app in your default web browser.
 
 ### App Usage
