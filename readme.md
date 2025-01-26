@@ -1,4 +1,4 @@
-# Tide Text
+# Tidy Text
 
 ## Overview
 This project provides a simple application to clean text files or CSV files containing textual data. It removes unwanted characters, stopwords, and retains only meaningful content. The application is built using Python and Streamlit for an intuitive and user-friendly interface.
