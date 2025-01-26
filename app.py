@@ -2,8 +2,16 @@ import streamlit as st
 import pandas as pd
 from text_cleaner import clean_text
 
-st.title("Welcome to TidyText!")
-st.write("Clean and refine your text")
+# Center-aligned Title
+st.markdown(
+    "<h1 style='text-align: center; color:white ;'>Tidy Text</h1>", 
+    unsafe_allow_html=True
+)
+# Welcome Message
+st.markdown(
+    "<h3 style='text-align: center;color:grey;'>Clean and refine your text with ease</h3>", 
+    unsafe_allow_html=True
+)
 
 st.write("Upload a `.txt` or `.csv` file for text cleaning.")
 
