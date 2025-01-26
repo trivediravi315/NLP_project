@@ -2,7 +2,9 @@ import streamlit as st
 import pandas as pd
 from text_cleaner import clean_text
 
-st.title("Text File Cleaner")
+st.title("Welcome to TidyText!")
+st.write("Clean and refine your text")
+
 st.write("Upload a `.txt` or `.csv` file for text cleaning.")
 
 # File upload
